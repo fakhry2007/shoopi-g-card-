@@ -1,0 +1,27 @@
+.totale-price {
+    position: fixed;
+    bottom: 0px;
+    width: 65%;
+  }
+  .header {
+    background-color: blue
+      display flex: ;justify-content: center;
+  }
+  body {
+    padding-bottom: 50px;
+  }
+ .container {background-color: black;
+
+ }
+
+ body {
+  background-color: lightblue;
+}
+
+.z1{
+ margin-inline-start: 500px
+  ;
+}
+.heart {
+  background-color: gray;
+}

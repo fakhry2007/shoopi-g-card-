@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Checkpoint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="CSS/Style.css" rel="stylesheet">
+   
+    <div class="z1">  <img  src="zara.jpg"  width="500px" height="300px"></div>
+    <header> <H1> ZARA BOUTIQUE : </H1></header>
+    <h3>
+         SHOP THE LATEST TRENDS WITH ZARA’S NEW IN COLLECTION
+        SHOP THE LATEST CLOTHING TRENDS WITH OUR WEEKLY EDIT OF WHAT’S NEW IN ONLINE AT ZARA. FROM OUR LATEST WOMAN COLLECTION AND TRF LINES, WE HAVE DRESSES, JEANS, SHOES, BAGS AND MORE TO SUIT EVERY WOMAN AND EVERY OCCASION. EXPLORE THE LATEST FASHION TRENDS HERE AND NOW WITH US.
+     </h3>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card card-body">
+            <h2 class="title">List of Items</h2>
+            <ul id="items" class="list-group">
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item One <span class="price"> 11 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (1).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li> 
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Two <span class="price"> 13 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (2).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Three <span class="price"> 39 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (3).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Four <span class="price"> 09 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (4).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Five <span class="price"> 30 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (5).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Six <span class="price"> 18 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (6).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Seven <span class="price"> 56 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (7).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item Eight <span class="price"> 78 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images.jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                <li  class="list-group-item parent">
+                    <div class="row">
+                    <h3 class="col-4">Item nine <span class="price"> 89 </span>$</h3>
+                    <div class="col-1"><img class="heart" src="images (8).jpg" width="100" height="100"></div>
+                    <button type="button"  class="col-1 btn btn-secondary minus-button"><h4>-</h4></button>
+                    <div class="col-1"><h3 class="quantity">0</h3></div>
+                    <button type="button"  class="col-1 btn btn-primary add-button"><h4>+</h4></button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">DELETE</button>
+                    <button type="button"  class="col-1 offset-2 btn btn-danger delete">like</button>
+                    </div>
+                </li>
+                
+           
+
+                <li class="list-group-item totale-price">
+                    <div class="row bg-info">
+                    <h3 class="col-4" id="totale-price">$</h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="JS/Main.js"></script>
+</body>
+</html>
